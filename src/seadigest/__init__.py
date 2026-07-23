@@ -1,10 +1,6 @@
-"""seadigest: digestible seaborn visualizations for a built-in sample dataset.
+"""seadigest: gooey, liquid-looking seaborn charts over a built-in sample dataset.
 
-Public API — exactly two plotting functions:
-
-    >>> import seadigest
-    >>> seadigest.sales_by_category()   # ranked bar chart
-    >>> seadigest.sales_over_week()     # weekly trend lines
+Public API — two plotting functions: ``sales_by_category`` and ``sales_over_week``.
 """
 
 from .plots import sales_by_category, sales_over_week
