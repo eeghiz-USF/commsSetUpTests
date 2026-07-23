@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seadigest"
+version = "0.1.0"
+description = "Digestible, ready-to-read seaborn visualizations for a built-in sample dataset."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "eeghiz", email = "eeghiz@dons.usfca.edu" }]
+keywords = ["seaborn", "visualization", "matplotlib", "charts", "data-visualization"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "seaborn>=0.12",
+    "matplotlib>=3.5",
+    "pandas>=1.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/eeghiz-USF/commsSetUpTests"
+Repository = "https://github.com/eeghiz-USF/commsSetUpTests"
+
+[tool.setuptools.packages.find]
+where = ["src"]
