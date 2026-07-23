@@ -23,10 +23,7 @@ _BASELINE = {
 def _sample_data() -> pd.DataFrame:
     """Return a small, deterministic café-sales dataset in long form.
 
-    Columns:
-        day        ordered categorical, Mon..Sun
-        drink      the menu item
-        units_sold integer units sold that day
+    Columns: ``day`` (ordered Mon..Sun), ``drink``, ``units_sold``.
     """
     rows = [
         {"day": day, "drink": drink, "units_sold": round(base * factor)}

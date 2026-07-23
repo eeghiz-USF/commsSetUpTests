@@ -1,9 +1,9 @@
 # seadigest
 
-Digestible, ready-to-read [seaborn](https://seaborn.pydata.org/) visualizations
-for a built-in sample dataset. `seadigest` wraps common seaborn plots with
-sensible, accessible defaults — sorted bars with value labels, a colorblind-
-friendly palette, clean de-spined axes — so you get a clear chart in one call.
+Gooey, liquid-looking [seaborn](https://seaborn.pydata.org/) visualizations for
+a built-in sample dataset. `seadigest` layers seaborn's palettes with smooth,
+flowing curves, glossy "gel" bars, soft glows and gradient pours on a deep
+backdrop — so you get an eye-catching, easy-to-read chart in one call.
 
 ## Install
 
@@ -63,8 +63,8 @@ A small, deterministic dataset is included so the plots work out of the box:
 
 | Function | Visualization |
 |----------|---------------|
-| `sales_by_category(data=None, ax=None)` | Horizontal bar chart of total weekly units per drink, sorted and value-labelled. |
-| `sales_over_week(data=None, ax=None)`   | Line chart of daily units sold per drink across the week. |
+| `sales_by_category(data=None, ax=None)` | Ranked bar chart drawn as glossy, gooey gel capsules (one per drink), value-labelled. |
+| `sales_over_week(data=None, ax=None)`   | Weekly trend drawn as smooth liquid streams with a glossy pour beneath. |
 
 ## Development
 

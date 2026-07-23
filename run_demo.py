@@ -30,12 +30,14 @@ def main() -> None:
 
     # 1. Ranked bar chart: total units sold per drink.
     ax_bar = seadigest.sales_by_category()
-    ax_bar.figure.savefig("sales_by_category.png", dpi=150, bbox_inches="tight")
+    ax_bar.figure.savefig("sales_by_category.png", dpi=150, bbox_inches="tight",
+                       facecolor=ax_bar.figure.get_facecolor())
     print("  saved sales_by_category.png")
 
     # 2. Trend lines: daily units sold per drink across the week.
     ax_line = seadigest.sales_over_week()
-    ax_line.figure.savefig("sales_over_week.png", dpi=150, bbox_inches="tight")
+    ax_line.figure.savefig("sales_over_week.png", dpi=150, bbox_inches="tight",
+                       facecolor=ax_line.figure.get_facecolor())
     print("  saved sales_over_week.png")
 
     print("\nOpening chart windows — close them to exit.")
