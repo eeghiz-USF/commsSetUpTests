@@ -18,3 +18,7 @@ venv/
 
 # OS
 .DS_Store
+
+# Charts produced by run_demo.py
+sales_by_category.png
+sales_over_week.png

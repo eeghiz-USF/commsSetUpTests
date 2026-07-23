@@ -39,6 +39,16 @@ ax = seadigest.sales_by_category()
 ax.figure.savefig("weekly_sales.png", dpi=150, bbox_inches="tight")
 ```
 
+### Quick demo
+
+A ready-to-run script is included. After installing the package, run:
+
+```bash
+python run_demo.py
+```
+
+It draws both charts, saves them as PNGs, and opens them in a window.
+
 ### The sample dataset
 
 A small, deterministic dataset is included so the plots work out of the box:
